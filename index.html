@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="bookmarklet.js"></script>
+    <script src="battery.js"></script>
+  </head>
+  <body>
+    <div class='title'>
+      <h1> Your Battery </h1>
+    </div>
+    <div>
+      <p id = 'battery_supported'></p>
+      <p id = 'battery_level'> Battery level is </p>
+      <p id = 'charging'> Battery status is </p>
+      <p id = 'battery_charged'> Battery will be fully charged in </p>
+      <p id = 'battery_discharged'> Battery will be discharged in </p>
+      <p id = 'change_color'> Click <a href = "javascript:changeColor();"> here </a> to see what happens</p>
+    </div>
+    <div>
+      <button id="myBtn" onclick="javascript:myBtnClickHandler();">Click Me!</button>
+  </body>
+</html>
