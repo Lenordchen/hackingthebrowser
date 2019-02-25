@@ -1,0 +1,23 @@
+{
+  "manifest_version":2,
+  "name": "Hacking the browser",
+  "version":"0.001",
+  "content_scripts": [
+    {
+      "matches":[
+        "<all_urls>"
+      ],
+      "js":["content.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action":{
+    "default_icon":"icebear.png",
+    "default_popup": "popup.html",
+    "default_title": "A popup will come"
+  }
+
+
+}
